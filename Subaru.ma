@@ -1,6 +1,6 @@
 //Maya ASCII 2020 scene
 //Name: Subaru.ma
-//Last modified: Mon, Feb 10, 2020 08:06:04 PM
+//Last modified: Mon, Feb 10, 2020 10:22:34 PM
 //Codeset: 1252
 requires maya "2020";
 requires "mtoa" "4.0.0";
@@ -10,18 +10,18 @@ fileInfo "product" "Maya 2020";
 fileInfo "version" "2020";
 fileInfo "cutIdentifier" "201911140446-42a737a01c";
 fileInfo "osv" "Microsoft Windows 10 Technical Preview  (Build 18362)\n";
-fileInfo "UUID" "21183341-4D18-8670-E451-77B790C40136";
+fileInfo "UUID" "56277CAD-4560-043A-D119-D68E1828576D";
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "1F1E9E70-4421-42DF-4667-C0AC48728F53";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 0.16247134827242027 -7.7451151850383901 1.2311388037288014 ;
-	setAttr ".r" -type "double3" -3.9383527296182441 0.19999999999886889 4.6590440311656816e-18 ;
+	setAttr ".t" -type "double3" 0.28830074056880262 -6.5844641523465084 2.3813494299268214 ;
+	setAttr ".r" -type "double3" -20.738352729618288 2.1999999999989357 -9.9465648292798393e-17 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "7ED01820-4C05-04B9-19D4-D1BC71973966";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 2.3431767901314235;
+	setAttr ".coi" 3.732234426831321;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
